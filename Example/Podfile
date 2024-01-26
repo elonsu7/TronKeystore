@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TronKeystore_Example' do
+  pod 'TronKeystore', :path => '../'
+
+  target 'TronKeystore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
